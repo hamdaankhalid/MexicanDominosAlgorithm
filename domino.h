@@ -8,7 +8,7 @@ class Domino {
     int side1;
     int side2;
 
-    static Domino DominoFromString(string sides);
+    static Domino DominoFromString(const string& sides);
 
     int getSum();
 

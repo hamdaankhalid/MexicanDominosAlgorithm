@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Domino Domino::DominoFromString(string sides) {
+Domino Domino::DominoFromString(const string& sides) {
   Domino domino;
   domino.side1 = stoi(&sides[0]);
   domino.side2 = stoi(&sides[2]);
